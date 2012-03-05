@@ -1,0 +1,16 @@
+gem "sinatra"
+gem "sinatra-reloader"
+gem "sinatra-assetpack"
+gem "sinatra-backbone", :path => "/srv/gems/sinatra-backbone"
+gem "rake"
+gem "mongo"
+gem "mongoid"
+gem "bson_ext"      #This is required for optimum MongoDB Ruby driver performance.
+gem "thin"
+gem "json"
+gem "factory_girl"
+gem "rack", "~> 1.3.6"
+gem "yajl-ruby"
+gem "eventmachine"
+gem "em-websocket"
+gem 'warden'
